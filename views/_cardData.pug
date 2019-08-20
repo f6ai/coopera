@@ -1,0 +1,6 @@
+mixin cardData(icon, title, value)
+    svg.card__icon
+        use(xlink:href=`/assets/img/icons/symbol-defs.svg#icon-${icon}`)
+    span.card__data--title= title
+    span &nbsp;
+    span.card__data--value= value

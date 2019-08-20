@@ -1,0 +1,58 @@
+.section__about {
+    background-color: $color-secondary-dark;
+    background-image: linear-gradient(rgba($color-secondary-dark, .93), rgba($color-secondary-dark, .93)), url(../img/activites/painting-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+    @include respond(phone) {
+        padding: 2rem;
+        
+    }
+
+}
+
+.company {
+    &--intro {
+        text-align: center;
+        margin-top: 20rem;
+
+        @include respond(tab-port) {
+            margin-top: 15rem;
+        }
+        
+        @include respond(phone) {
+            margin-top: 10rem;
+        }
+
+        @include respond(small-phone) {
+            margin-top: 3rem;
+        }
+    }
+
+    &--logo {
+        width: 50rem;
+        height: auto;
+
+        @include respond(tab-port) {
+            width: 45rem;
+        }
+
+        @include respond(phone) {
+            width: 40rem;
+        }
+
+        @include respond(small-phone) {
+            width: 30rem;
+        }
+
+
+    }
+}
+
+.cta-wrapper {
+    //border: 1px solid red;
+    text-align: center;
+}

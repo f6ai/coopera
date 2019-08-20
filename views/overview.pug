@@ -1,0 +1,37 @@
+extends base
+include _cardData
+
+block content
+    main
+        section.section-cards
+
+            each job in jobs
+                .card
+                    .card__image-box
+                        img.card__image(src=`/assets/img/activites/${job.imageCover}` alt="Farming 1")
+                    .card__details
+                        h3#heading__card= `${job.name}`
+                        .card__content
+                            .card__data
+                                +cardData('location', 'Location:', `${job.location.description}`)
+                            .card__data
+                                svg.card__icon
+                                    use(xlink:href="/assets/img/icons/symbol-defs.svg#icon-layers")
+                                span.card__data--title Summary: &nbsp;
+                            .card__text
+                                p.card__summary= `${job.summary}`
+                            .card__data
+                                +cardData('calendar', 'Availability:', `from ${job.availability.startDate.toLocaleDateString()} to  ${job.availability.endDate.toLocaleDateString()}`)
+                            .card__data
+                                +cardData('user', 'Group size:', `max. ${job.maxGroupSize} people`)
+                            .card__data
+                                svg.card__icon
+                                    use(xlink:href="/assets/img/icons/symbol-defs.svg#icon-star")
+                                span.card__data--title Rating: 
+                                    span.card__data--value= `${job.ratingsAverage}`
+                                    span &nbsp;
+                                    span.card__data--value= `(${job.ratingsQuantity} reviews)`
+                        .card__footer
+                            button.btn.btn--cta#btn--contact-host
+                                a(href=`/job/${job.slug}`) Details
+                            

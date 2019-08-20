@@ -1,0 +1,135 @@
+[
+    {
+        "name": "Work in a busy farm",
+        "location": {
+            "coordinates": [
+                52.300452,
+                19.942654
+            ],
+            "description": "near Paulinka",
+            "country": "Poland"
+        },
+        "imageCover": "farming-1-big.jpg",
+        "summary": "If you love animals and be in nature, this is a right place for you. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Id venenatis a condimentum vitae. Aliquam ultrices sagittis orci a scelerisque purus semper. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Velit scelerisque in dictum non consectetur a erat. Ullamcorper a lacus vestibulum sed arcu non odio. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Id volutpat lacus laoreet non curabitur gravida arcu ac. Venenatis cras sed felis eget velit aliquet sagittis id. Aliquam nulla facilisi cras fermentum. Cursus eget nunc scelerisque viverra mauris in aliquam. Cras sed felis eget velit aliquet sagittis id consectetur. Ut diam quam nulla porttitor. Risus sed vulputate odio ut enim. Mauris cursus mattis molestie a iaculis at erat pellentesque. Amet commodo nulla facilisi nullam vehicula ipsum a. Sit amet consectetur adipiscing elit ut. Sodales ut etiam sit amet nisl purus in mollis nunc. At risus viverra adipiscing at in tellus integer feugiat. Neque viverra justo nec ultrices. Enim diam vulputate ut pharetra sit amet aliquam. Rutrum quisque non tellus orci ac auctor augue. Tincidunt ornare massa eget egestas. Sed felis eget velit aliquet sagittis id consectetur purus.",
+        "typeOfHelp": "A scelerisque purus semper eget duis at. Nunc mi ipsum faucibus vitae aliquet nec. Urna duis convallis convallis tellus id interdum velit. Tincidunt lobortis feugiat vivamus at. Ac tincidunt vitae semper quis lectus. Sed blandit libero volutpat sed cras. Augue eget arcu dictum varius duis at consectetur. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Nunc sed blandit libero volutpat sed cras ornare arcu. Rutrum tellus pellentesque eu tincidunt tortor. Elementum eu facilisis sed odio morbi quis commodo odio. Interdum posuere lorem ipsum dolor. Sed adipiscing diam donec adipiscing.",
+        "learningOpp": "At ultrices mi tempus imperdiet nulla malesuada. Id eu nisl nunc mi ipsum faucibus. Nisl nunc mi ipsum faucibus vitae. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Ut sem nulla pharetra diam. Consequat ac felis donec et odio. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Malesuada fames ac turpis egestas maecenas pharetra convallis. Condimentum mattis pellentesque id nibh tortor id. Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "accomodation": "Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "moreInfo": [
+            "Internet provided",
+            "We are smokers",
+            "We have pets"
+        ],
+        "spokenLangs": [
+            "English",
+            "Polish",
+            "German"
+        ],
+        "availability": {
+            "startDate": "2019-01-01",
+            "endDate": "2019-12-31"
+        },
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 7,
+        "maxGroupSize": 15
+    },
+    {
+        "name": "Help renovate a school building",
+        "location": {
+            "coordinates": [
+                45.868359,
+                27.367756
+            ],
+            "description": "near Tetuci",
+            "country": "Romania"
+        },
+        "imageCover": "construction-1-big.jpg",
+        "summary": "Last spring, due to the heavy rains, the school building was flooded. Volutpat blandit aliquam etiam erat velit. At varius vel pharetra vel turpis nunc eget lorem dolor. Dictum sit amet justo donec. Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh. Lacus vel facilisis volutpat est velit egestas dui. Aliquam id diam maecenas ultricies mi eget mauris. Duis aute irure dolor in reprehenderit in.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Id venenatis a condimentum vitae. Aliquam ultrices sagittis orci a scelerisque purus semper. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Velit scelerisque in dictum non consectetur a erat. Ullamcorper a lacus vestibulum sed arcu non odio. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Id volutpat lacus laoreet non curabitur gravida arcu ac. Venenatis cras sed felis eget velit aliquet sagittis id. Aliquam nulla facilisi cras fermentum. Cursus eget nunc scelerisque viverra mauris in aliquam. Cras sed felis eget velit aliquet sagittis id consectetur. Ut diam quam nulla porttitor. Risus sed vulputate odio ut enim. Mauris cursus mattis molestie a iaculis at erat pellentesque. Amet commodo nulla facilisi nullam vehicula ipsum a. Sit amet consectetur adipiscing elit ut. Sodales ut etiam sit amet nisl purus in mollis nunc. At risus viverra adipiscing at in tellus integer feugiat. Neque viverra justo nec ultrices. Enim diam vulputate ut pharetra sit amet aliquam. Rutrum quisque non tellus orci ac auctor augue. Tincidunt ornare massa eget egestas. Sed felis eget velit aliquet sagittis id consectetur purus.",
+        "typeOfHelp": "A scelerisque purus semper eget duis at. Nunc mi ipsum faucibus vitae aliquet nec. Urna duis convallis convallis tellus id interdum velit. Tincidunt lobortis feugiat vivamus at. Ac tincidunt vitae semper quis lectus. Sed blandit libero volutpat sed cras. Augue eget arcu dictum varius duis at consectetur. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Nunc sed blandit libero volutpat sed cras ornare arcu. Rutrum tellus pellentesque eu tincidunt tortor. Elementum eu facilisis sed odio morbi quis commodo odio. Interdum posuere lorem ipsum dolor. Sed adipiscing diam donec adipiscing.",
+        "learningOpp": "At ultrices mi tempus imperdiet nulla malesuada. Id eu nisl nunc mi ipsum faucibus. Nisl nunc mi ipsum faucibus vitae. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Ut sem nulla pharetra diam. Consequat ac felis donec et odio. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Malesuada fames ac turpis egestas maecenas pharetra convallis. Condimentum mattis pellentesque id nibh tortor id. Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "accomodation": "Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "moreInfo": [
+            "Internet provided",
+            "We are smokers"
+        ],
+        "spokenLangs": [
+            "English",
+            "Romanian",
+            "French"
+        ],
+        "availability": {
+            "startDate": "2019-07-01",
+            "endDate": "2019-08-28"
+        },
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 22,
+        "maxGroupSize": 20
+    },
+    {
+        "name": "Help maintain our beautiful garden",
+        "location": {
+            "coordinates": [
+                47.478873,
+                1.205413
+            ],
+            "description": "Chaumont-sur-Loire",
+            "country": "France"
+        },
+        "imageCover": "gardening-1-big.jpg",
+        "summary": "Our chateau garden helps the local food market. Massa tincidunt dui ut ornare lectus. A lacus vestibulum sed arcu non odio euismod lacinia at. Viverra accumsan in nisl nisi scelerisque eu. A iaculis at erat pellentesque. Lectus proin nibh nisl condimentum. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Id venenatis a condimentum vitae. Aliquam ultrices sagittis orci a scelerisque purus semper. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Velit scelerisque in dictum non consectetur a erat. Ullamcorper a lacus vestibulum sed arcu non odio. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Id volutpat lacus laoreet non curabitur gravida arcu ac. Venenatis cras sed felis eget velit aliquet sagittis id. Aliquam nulla facilisi cras fermentum. Cursus eget nunc scelerisque viverra mauris in aliquam. Cras sed felis eget velit aliquet sagittis id consectetur. Ut diam quam nulla porttitor. Risus sed vulputate odio ut enim. Mauris cursus mattis molestie a iaculis at erat pellentesque. Amet commodo nulla facilisi nullam vehicula ipsum a. Sit amet consectetur adipiscing elit ut. Sodales ut etiam sit amet nisl purus in mollis nunc. At risus viverra adipiscing at in tellus integer feugiat. Neque viverra justo nec ultrices. Enim diam vulputate ut pharetra sit amet aliquam. Rutrum quisque non tellus orci ac auctor augue. Tincidunt ornare massa eget egestas. Sed felis eget velit aliquet sagittis id consectetur purus.",
+        "typeOfHelp": "A scelerisque purus semper eget duis at. Nunc mi ipsum faucibus vitae aliquet nec. Urna duis convallis convallis tellus id interdum velit. Tincidunt lobortis feugiat vivamus at. Ac tincidunt vitae semper quis lectus. Sed blandit libero volutpat sed cras. Augue eget arcu dictum varius duis at consectetur. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Nunc sed blandit libero volutpat sed cras ornare arcu. Rutrum tellus pellentesque eu tincidunt tortor. Elementum eu facilisis sed odio morbi quis commodo odio. Interdum posuere lorem ipsum dolor. Sed adipiscing diam donec adipiscing.",
+        "learningOpp": "At ultrices mi tempus imperdiet nulla malesuada. Id eu nisl nunc mi ipsum faucibus. Nisl nunc mi ipsum faucibus vitae. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Ut sem nulla pharetra diam. Consequat ac felis donec et odio. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Malesuada fames ac turpis egestas maecenas pharetra convallis. Condimentum mattis pellentesque id nibh tortor id. Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "accomodation": "Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "moreInfo": [
+            "Internet provided",
+            "We have two cats: Coco and Chanel",
+            "We are smokers"
+        ],
+        "spokenLangs": [
+            "French",
+            "English"
+        ],
+        "availability": {
+            "startDate": "2019-04-01",
+            "endDate": "2019-10-31"
+        },
+        "ratingsAverage": 4.9,
+        "ratingsQuantity": 32,
+        "maxGroupSize": 10
+    },
+    {
+        "name": "Teach English to kids",
+        "location": {
+            "coordinates": [
+                4.828966,
+                100.710375
+            ],
+            "description": "Simpang, Perak",
+            "country": "Malaysia"
+        },
+        "imageCover": "teaching-1-big.jpg",
+        "summary": "We are a non-profit organization helping low-income families. Eu nisl nunc mi ipsum faucibus vitae aliquet. Ac turpis egestas integer eget. Quis varius quam quisque id diam vel quam. Integer vitae justo eget magna fermentum iaculis eu. Lacus sed turpis tincidunt id aliquet risus. Sagittis nisl rhoncus mattis rhoncus. Nunc mi ipsum faucibus vitae aliquet nec. ",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tortor id aliquet lectus proin nibh nisl. Id venenatis a condimentum vitae. Aliquam ultrices sagittis orci a scelerisque purus semper. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam. Velit scelerisque in dictum non consectetur a erat. Ullamcorper a lacus vestibulum sed arcu non odio. Consequat interdum varius sit amet mattis vulputate enim nulla aliquet. Id volutpat lacus laoreet non curabitur gravida arcu ac. Venenatis cras sed felis eget velit aliquet sagittis id. Aliquam nulla facilisi cras fermentum. Cursus eget nunc scelerisque viverra mauris in aliquam. Cras sed felis eget velit aliquet sagittis id consectetur. Ut diam quam nulla porttitor. Risus sed vulputate odio ut enim. Mauris cursus mattis molestie a iaculis at erat pellentesque. Amet commodo nulla facilisi nullam vehicula ipsum a. Sit amet consectetur adipiscing elit ut. Sodales ut etiam sit amet nisl purus in mollis nunc. At risus viverra adipiscing at in tellus integer feugiat. Neque viverra justo nec ultrices. Enim diam vulputate ut pharetra sit amet aliquam. Rutrum quisque non tellus orci ac auctor augue. Tincidunt ornare massa eget egestas. Sed felis eget velit aliquet sagittis id consectetur purus.",
+        "typeOfHelp": "A scelerisque purus semper eget duis at. Nunc mi ipsum faucibus vitae aliquet nec. Urna duis convallis convallis tellus id interdum velit. Tincidunt lobortis feugiat vivamus at. Ac tincidunt vitae semper quis lectus. Sed blandit libero volutpat sed cras. Augue eget arcu dictum varius duis at consectetur. Ac turpis egestas maecenas pharetra convallis posuere morbi leo. Scelerisque varius morbi enim nunc faucibus a pellentesque sit. Nunc sed blandit libero volutpat sed cras ornare arcu. Rutrum tellus pellentesque eu tincidunt tortor. Elementum eu facilisis sed odio morbi quis commodo odio. Interdum posuere lorem ipsum dolor. Sed adipiscing diam donec adipiscing.",
+        "learningOpp": "At ultrices mi tempus imperdiet nulla malesuada. Id eu nisl nunc mi ipsum faucibus. Nisl nunc mi ipsum faucibus vitae. Dis parturient montes nascetur ridiculus mus mauris vitae ultricies. Ut sem nulla pharetra diam. Consequat ac felis donec et odio. Diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Malesuada fames ac turpis egestas maecenas pharetra convallis. Condimentum mattis pellentesque id nibh tortor id. Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "accomodation": "Volutpat diam ut venenatis tellus in metus. Magna sit amet purus gravida quis. Consectetur lorem donec massa sapien. Integer quis auctor elit sed vulputate mi sit amet. Nec feugiat nisl pretium fusce id. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros in. Nibh cras pulvinar mattis nunc sed. Semper quis lectus nulla at volutpat diam ut venenatis. Ac odio tempor orci dapibus. Integer feugiat scelerisque varius morbi enim nunc. Blandit volutpat maecenas volutpat blandit aliquam etiam erat velit. Consectetur lorem donec massa sapien faucibus et molestie ac. Dignissim cras tincidunt lobortis feugiat vivamus at augue. Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Pellentesque elit eget gravida cum. Ornare massa eget egestas purus viverra accumsan in.",
+        "moreInfo": [
+            "Internet provided",
+            "We have pets",
+            "We are non-smokers"
+        ],
+        "spokenLangs": [
+            "English",
+            "Malaysian Malay"
+        ],
+        "availability": {
+            "startDate": "2019-09-01",
+            "endDate": "2020-07-01"
+        },
+        "ratingsAverage": 4.6,
+        "ratingsQuantity": 12,
+        "maxGroupSize": 12
+    }
+]

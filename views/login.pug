@@ -1,0 +1,21 @@
+extends base
+
+block content
+    section.login#login
+        form.login__container
+            h2.heading__login Log in
+            .form.form__login
+                .form__group
+                    .form__group-col-1
+                        label.form__label(for="email--login") Email
+                    .form__group-col-2
+                        input.form__input#email--login(type="email" required)
+                .form__group
+                    .form__group-col-1
+                        label.form__label(for="pass--login" ) Password
+                    .form__group-col-2
+                        input.form__input#pass--login(type="password" required minlength='8')
+            button.btn.btn--cta#btn--login Log in
+            p.forgot-password Forgot password? Click 
+                span: a.link--dark(href="#") here
+                span  to reset.

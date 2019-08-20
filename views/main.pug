@@ -1,0 +1,82 @@
+mixin feature(icon, title, text)
+   .feature
+        svg.feature__icon
+            use(xlink:href=`/assets/img/icons/symbol-defs.svg#icon-${icon}`)
+        h3= title
+        p.feature__text= text
+
+doctype html
+html
+  head
+    block head
+      meta(charset='UTF-8')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0')
+      meta(http-equiv="X-UA-Compatible" content="ie=edge")
+      link(rel='stylesheet' href='/assets/css/style.css')
+      link(rel='shortcut icon' type='image/png' href='/assets/img/icons/icon.ico')
+      link(rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:200,300,500|Roboto:300,400&display=swap')
+      title COOPERA | #{title}
+body
+    section.section__about
+        header.header
+            nav.nav
+                .nav__container
+                    li.nav__el
+                        a.nav__el--link(href='/jobs') Find jobs
+                    li.nav__el
+                        a.nav__el--link(href="#") Become a host
+                    if user
+                        li.nav__el
+                            a.nav__el--link.nav--logout(href="#") Log out
+                        li.nav__el
+                            a.nav__el--userlink(href="#")
+                                img.nav__user-img(src=`/assets/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                    else
+                        li.nav__el
+                            a.nav__el--link(href="#") Sign up
+                        li.nav__el
+                            a.nav__el--link(href='/login') Log in
+        .company--intro
+            img.company--logo(src="/assets/img/icons/logo-light.png" alt="Coopera-logo")
+            h2#company--intro-text Find volunteer works and promote a sustainable life
+            button.btn.btn--cta.btn--getstarted
+                a(href="/jobs") Find jobs
+    main
+        section.features
+            .feature-wrapper
+                +feature('hand', 'Help local people', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel orci porta non pulvinar neque laoreet suspendisse.')
+                +feature('globe', 'Find volunteer jobs worldwide', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur purus ut faucibus pulvinar elementum integer enim neque.')
+                +feature('home', 'Become a host', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nunc eget lorem dolor sed viverra ipsum.')
+                +feature('leaf', 'Work for a sustainable future', 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque consectetuer penatibus et.')
+                +feature('layers', 'Take part in amazing experiences', 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab.')
+                +feature('suitcase', 'Travel and live frugal', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero enim sed faucibus turpis in eu me bibendum neque.')
+        section.reviews
+            .reviews__left
+                .review
+                    figure.review__shape
+                        img.review__img(src="/assets/img/users/user-1.jpg" alt="Person on a tour")
+                        figcaption.review__caption Andrea Smith
+                    .review__text
+                        h3 I had a wonderful time in Salerno, Italy
+                        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorum cum facilis ad reiciendis nesciunt vel, fugit quis. Doloribus commodi repellendus esse magnam cumque facere nisi quaerat obcaecati tempore enim.
+                .review
+                    figure.review__shape
+                        img.review__img(src="/assets/img/users/user-2.jpg" alt="Person on a tour")
+                        figcaption.review__caption Tom Waters
+                    .review__text
+                        h3 My life is completely changed thanks to this experience
+                        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum dolorum cum facilis ad reiciendis nesciunt vel, fugit quis. Doloribus commodi repellendus esse magnam cumque facere nisi quaerat obcaecati tempore enim.
+            .reviews__right
+                .cta__search
+                    button.btn.btn--cta
+                        a(href='/jobs') Search hosts
+                p.cta__separator OR
+                .cta__signup
+                    button.btn.btn--cta
+                        a(href='#') Sign up
+                p Have an account? 
+                    span: a.link(href='/login') Log in
+
+    include _footer
+    
+    script(src='/js/bundle.js')

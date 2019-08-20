@@ -1,0 +1,103 @@
+.main {
+    margin: 5rem 15rem;
+}
+
+.job {
+    &__title {
+        color: $color-primary-dark;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        margin: 0 5rem;
+
+        @include respond(tab-port) {
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    }
+
+    &__image-box {
+        max-width: 50rem;
+        overflow: hidden;
+        width: 60%;
+
+        @include respond(tab-port) {
+            width: 100%;
+
+        }
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5rem;
+        width: 40%;
+
+        @include respond(tab-port) {
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}
+
+.map-container {
+    width: 100%;
+}
+
+#map {
+    width: 100%;
+    height: 40rem;
+    background-color: $color-grey-light-2;
+}
+ 
+.marker {
+    background-image: url(../img/icons/pin-gold.png);
+    background-size: cover;
+    width: 35px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.paragraph {
+
+    &:last-child {
+        margin-bottom: 10rem;
+    }
+
+    &__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: inline-flex;
+        padding: 0.5rem;
+    }
+
+    &__icon {
+        width: 2rem;
+        height: 2rem;
+        fill: $color-primary;
+        margin-right: 1rem;
+
+        // align the svg to the baseline of text
+        top: .125em;
+        position: relative;
+        
+    }
+}
+
+.cta {
+    text-align: center;
+}

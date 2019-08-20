@@ -1,0 +1,84 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    max-height: 50rem;
+    align-items: center;
+    background-color: $color-secondary-dark;
+    color: $color-grey-light-1;
+
+    &__logo {
+        width: 40rem;
+        height: auto;
+        margin: 6rem 6rem 1rem 6rem;
+
+        @include respond(tab-port) {
+            width: 35rem;
+        }
+
+        @include respond(phone) {
+            width: 30rem;
+        }
+
+        @include respond(small-phone) {
+            width: 20rem;
+        }
+    }
+
+    &__navigation {
+        width: 100%;
+        margin: 4rem;
+
+        @include respond(small-phone) {
+             margin: 1rem;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+
+        @include respond(small-phone) {
+            flex-direction: column;
+            align-items: center;
+        }
+
+    }
+
+    &__link {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: inherit;
+    }
+
+    &__item {
+        padding: 1rem;
+
+        &::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1px;
+            background: $color-primary-light;
+            transition: width .3s;
+        }
+
+        &:hover::after {
+            width: 100%;
+        }
+
+        &:hover {
+            color: $color-primary-light;
+        }
+    }
+
+    &__copyright {
+        margin-bottom: 5rem;
+        font-size: 1.4rem;
+        text-align: center;
+
+        @include respond(phone) {
+            margin: 2rem 3rem;
+        }
+    }
+}

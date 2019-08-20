@@ -1,0 +1,95 @@
+.section-cards {
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    grid-gap: 2rem;
+    align-items: start;
+    margin: 2rem 3rem;
+
+    @include respond(phone) {
+        margin: 1rem 0;
+    }
+
+}
+.card {
+    max-width: 40rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid $color-grey-light-2;
+
+    @include respond(phone) {
+        max-width: 35rem;
+    }
+
+    @include respond(smallest-phone) {
+        max-width: 28rem;
+    }
+
+
+    &__image-box {
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 1rem;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    &__data {
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        padding: 0.2rem 0;
+
+        &--title {
+            font-family: $font-secondary;
+            font-weight: 400;
+        }
+
+        &--value {
+            font-family: $font-primary;
+            font-weight: 400;
+        }
+    }
+
+    &__icon {
+        fill: $color-primary;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 1rem;
+    }
+
+    &__text {
+        height: 18rem;
+
+        @include respond(smallest-phone) {
+            height: 25rem;
+        }
+    }
+
+    &__summary {
+        font-size: 1.3rem;
+        padding-left: 3rem;
+    }
+
+    &__footer {
+        margin-top: 2rem;
+        align-self: center;
+    }
+}

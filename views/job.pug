@@ -1,0 +1,60 @@
+extends base
+include _cardData
+
+block append head
+    script(src='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.js')
+    link(href='https://api.mapbox.com/mapbox-gl-js/v1.2.0/mapbox-gl.css' rel='stylesheet')
+
+mixin paragraph(title, text)
+    hr
+    section.paragraph
+        h3.paragraph__title= title
+        p.paragraph__text= text
+
+block content
+    main.main
+        section.quick-info
+            h2.job__title= `${job.name}`
+            .job__wrapper
+                .job__image-box
+                    img.job__image(src=`/assets/img/activites/${job.imageCover}` alt="Farming 1")
+                .job__info
+                    .card__data.u-font-size-medium
+                        +cardData('location', 'Location:', `${job.location.description}`)
+                        
+                    .card__data.u-font-size-medium.u-margin-t-small
+                         +cardData('calendar', 'Availability:', `from ${job.availability.startDate.toLocaleDateString()} to  ${job.availability.endDate.toLocaleDateString()}`)
+                        
+                    .card__data.u-font-size-medium.u-margin-t-small
+                        +cardData('user', 'Group size:', `max. ${job.maxGroupSize} people`)
+                
+                    .card__data.u-font-size-medium.u-margin-t-small
+                        svg.card__icon
+                            use(xlink:href="/assets/img/icons/symbol-defs.svg#icon-star")
+                        span.card__data--title Host rating: 
+                            span.card__data--value= `${job.ratingsAverage}`
+                            span &nbsp;
+                            span.card__data--value= `(${job.ratingsQuantity} reviews)`
+
+        section.cta
+            button.btn.btn--cta.btn--contact
+                a(href="#") Contact host
+        +paragraph('Description', `${job.description}`)
+
+        hr
+        section.map-container
+            #map(data-location=`${JSON.stringify(job.location)}`)
+
+        +paragraph('Type of help', `${job.typeOfHelp}`)
+        +paragraph('Cultural exchange and learning opportunities', `${job.learningOpp}`)
+        +paragraph('Accomodation', `${job.accomodation}`)
+        
+        hr
+        section.paragraph
+            h3.paragraph__title More information
+            ul.paragraph__list
+                each item, index in job.moreInfo
+                    li.paragraph__item
+                        svg.paragraph__icon
+                            use(xlink:href="/assets/img/icons/symbol-defs.svg#icon-chevron-with-circle-right")
+                        span= `${job.moreInfo[index]}`

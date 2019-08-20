@@ -1,0 +1,21 @@
+header.header
+    nav.nav-page
+        .nav-page__container
+            a(href='/')
+                img.nav-page__icon(src="/assets/img/icons/coopera-logo-gold-3.png" alt="Company logo")
+            ul.nav-page__links
+                li.nav-page__el
+                    a.nav-page__el--link(href='/') Home
+                //- li.nav-page__el
+                //-     a.nav-page__el--link(href="#") Become a host
+                if user
+                    li.nav-page__el
+                        a.nav-page__el--link.nav--logout(href="#") Log out
+                    li.nav-page__el
+                        a.nav-page__el--userlink(href="#")
+                            img.nav__user-img(src=`/assets/img/users/${user.photo}` alt=`Photo of ${user.name}`)
+                else
+                    li.nav-page__el
+                        a.nav-page__el--link(href="#") Sign up
+                    li.nav-page__el
+                        a.nav-page__el--link(href='/login') Log in

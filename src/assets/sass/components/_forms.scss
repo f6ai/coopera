@@ -1,0 +1,100 @@
+.form {
+    width: 90%;
+
+    &__group {
+        margin: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        @include respond(phone) {
+            flex-direction: column;
+            margin: 0;
+        }
+
+        &-col-1 {
+            width: 40%;
+            align-self: center;
+
+            @include respond(phone) {
+                width: 100%;
+                justify-content: flex-start;
+            }
+            
+        }
+
+        &-col-2 {
+            width: 60%;
+            align-self: center;
+
+            @include respond(phone) {
+                width: 100%;
+            }
+        }
+    }
+
+    &__input {
+        width: 100%;
+        font-family: inherit;
+        font-size: 1.4rem;
+        padding: 0.5rem;
+        border-radius: 2px;
+        border: 1px solid $color-grey-light-2;
+        transition: all .2s;
+
+
+        &:focus {
+            outline: none;
+            box-shadow: 0 1rem 2rem rgba($color-secondary-dark, .1);
+            border-bottom: 2px solid $color-primary-dark;
+        }
+
+        &:focus:invalid {
+            border-bottom: 2px solid $color-primary;
+        }
+
+        &::-webkit-input-placeholder {
+            color: $color-secondary-dark;
+        }
+    }
+
+    &__label {
+        margin: 0.2rem 0.7rem;
+        font-size: 1.5rem;
+        color: $color-secondary-dark;
+        font-weight: 300;
+        transition: all .3s;
+
+        &:focus {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &__input:invalid + &__input--error {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__checkbox {
+        margin: 3rem 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &--container {
+            display: flex;
+            align-items: center;
+        }
+
+        &-label {
+            padding-left: 1rem;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+#form__login {
+    width: 60%;
+}
